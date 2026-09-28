@@ -1,0 +1,34 @@
+[
+  {
+    "instruction": "What is LoRA?",
+    "response": "LoRA stands for Low-Rank Adaptation. It fine-tunes a pretrained model by training small adapter matrices while keeping the original model weights frozen."
+  },
+  {
+    "instruction": "What is an adapter?",
+    "response": "An adapter is a small trainable component added to a pretrained model. It learns task-specific behavior without changing the complete base model."
+  },
+  {
+    "instruction": "Why is LoRA useful?",
+    "response": "LoRA reduces the number of trainable parameters, memory usage, training cost, and adapter storage compared with full fine-tuning."
+  },
+  {
+    "instruction": "What is QLoRA?",
+    "response": "QLoRA combines quantization with LoRA. The base model is stored in a lower-bit format while LoRA adapters are trained."
+  },
+  {
+    "instruction": "What happens to the base model during LoRA training?",
+    "response": "The base model parameters are normally frozen. The LoRA adapter parameters are updated during training."
+  },
+  {
+    "instruction": "Give a simple analogy for LoRA.",
+    "response": "LoRA is like adding a small specialized attachment to an existing machine instead of rebuilding the whole machine."
+  },
+  {
+    "instruction": "What is fine-tuning?",
+    "response": "Fine-tuning is the process of adapting a pretrained model to a particular task or dataset by additional training."
+  },
+  {
+    "instruction": "What is a pretrained model?",
+    "response": "A pretrained model is a model that has already learned general patterns from a large dataset before being adapted to a specific task."
+  }
+]

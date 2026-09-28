@@ -1,0 +1,25 @@
+# WINDOWS COMMANDS
+
+# 1. Go into the project
+cd path\to\lora_tutorial
+
+# 2. Create virtual environment
+py -3.11 -m venv .venv
+
+# 3. Activate
+.venv\Scripts\activate
+
+# 4. Upgrade pip
+python -m pip install --upgrade pip
+
+# 5. Install dependencies
+pip install -r requirements.txt
+
+# 6. Train LoRA
+python train_lora.py
+
+# 7. Run inference
+python inference.py
+
+# 8. Deactivate when finished
+deactivate
