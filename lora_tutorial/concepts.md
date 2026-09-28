@@ -15,7 +15,6 @@ Fine-tuned Model
 This can be expensive for large models.
 
 ## 2. LoRA
-
 The base model is frozen and small low-rank matrices are trained.
 
 ```text
