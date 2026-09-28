@@ -4,3 +4,5 @@ datasets>=2.20.0
 peft>=0.13.0
 accelerate>=0.34.0
 sentencepiece
+# The following packages are required for training with DeepSpeed
+deepspeed>=0.9.0
