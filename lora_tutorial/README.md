@@ -18,6 +18,7 @@ A beginner-friendly LoRA tutorial using Hugging Face Transformers and PEFT.
 - Internet connection for downloading the model
 - GPU is helpful but not required for understanding the code
 
+
 ## Windows setup
 
 Open PowerShell in this folder:
