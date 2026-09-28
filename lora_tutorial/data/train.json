@@ -30,5 +30,10 @@
   {
     "instruction": "What is a pretrained model?",
     "response": "A pretrained model is a model that has already learned general patterns from a large dataset before being adapted to a specific task."
+  },
+  {
+    "instruction": "What is quantization in machine learning?",
+    "response": "Quantization is the process of reducing the precision of the numbers used to represent model parameters, which can reduce model size and improve inference speed."
   }
+
 ]
