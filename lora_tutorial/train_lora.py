@@ -3,9 +3,7 @@ import os
 
 import torch
 from datasets import Dataset
-from transformers import (
-    AutoTokenizer,
-    AutoModelForCausalLM,
+from transformers import (AutoTokenizer,AutoModelForCausalLM,
     TrainingArguments,
     Trainer,
     DataCollatorForLanguageModeling,
