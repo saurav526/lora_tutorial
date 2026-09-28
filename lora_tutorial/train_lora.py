@@ -3,11 +3,7 @@ import os
 
 import torch
 from datasets import Dataset
-from transformers import (AutoTokenizer,AutoModelForCausalLM,
-    TrainingArguments,
-    Trainer,
-    DataCollatorForLanguageModeling,
-)
+from transformers import (AutoTokenizer,AutoModelForCausalLM,TrainingArguments,Trainer,DataCollatorForLanguageModeling,)
 from peft import LoraConfig, get_peft_model
 
 
