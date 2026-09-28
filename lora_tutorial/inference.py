@@ -49,6 +49,5 @@ def main():
     print("\n--- Model Output ---")
     print(generated)
 
-
 if __name__ == "__main__":
     main()
